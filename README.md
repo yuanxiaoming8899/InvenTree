@@ -1,179 +1,156 @@
-<div align="center">
-  <img src="images/logo/inventree.png" alt="InvenTree logo" width="200" height="auto" />
-  <h1>InvenTree</h1>
-  <p>Open Source Inventory Management System </p>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/inventree/InvenTree/blob/master/images/logo/inventree.png"><img src="/inventree/InvenTree/raw/master/images/logo/inventree.png" alt="发明树标志" width="200" height="auto" style="max-width: 100%;"></a>
+  <h1 tabindex="-1" dir="auto"><a id="user-content-inventree" class="anchor" aria-hidden="true" tabindex="-1" href="#inventree"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发明树</font></font></h1>
+  <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源库存管理系统</font></font></p>
 
-<!-- Badges -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/inventree/inventree)
-![CI](https://github.com/inventree/inventree/actions/workflows/qc_checks.yaml/badge.svg)
-[![Documentation Status](https://readthedocs.org/projects/inventree/badge/?version=latest)](https://inventree.readthedocs.io/en/latest/?badge=latest)
-![Docker Build](https://github.com/inventree/inventree/actions/workflows/docker.yaml/badge.svg)
-[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7179/badge)](https://bestpractices.coreinfrastructure.org/projects/7179)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9bbb2101-0a4d-41e7-ad56-b63fb6053094/deploy-status)](https://app.netlify.com/sites/inventree/deploys)
-[![DeepSource](https://app.deepsource.com/gh/inventree/InvenTree.svg/?label=active+issues&show_trend=false&token=trZWqixKLk2t-RXtpSIAslVJ)](https://app.deepsource.com/gh/inventree/InvenTree/)
-
-[![Coveralls](https://img.shields.io/coveralls/github/inventree/InvenTree)](https://coveralls.io/github/inventree/InvenTree)
-[![Crowdin](https://badges.crowdin.net/inventree/localized.svg)](https://crowdin.com/project/inventree)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/inventree/inventree)
-[![Docker Pulls](https://img.shields.io/docker/pulls/inventree/inventree)](https://hub.docker.com/r/inventree/inventree)
-
-![GitHub Org's stars](https://img.shields.io/github/stars/inventree?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/inventreedb?style=social)](https://twitter.com/inventreedb)
-[![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/inventree?style=social)](https://www.reddit.com/r/InvenTree/)
-
-
-<h4>
-    <a href="https://demo.inventree.org/">View Demo</a>
-  <span> · </span>
-    <a href="https://docs.inventree.org/en/latest/">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/inventree/InvenTree/issues/new?template=bug_report.md&title=[BUG]">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/inventree/InvenTree/issues/new?template=feature_request.md&title=[FR]">Request Feature</a>
+<p dir="auto"><a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://camo.githubusercontent.com/a4426cbe5c21edb002526331c7a8fbfa089e84a550567b02a0d829a98b136ad0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667" alt="许可证：麻省理工学院" data-canonical-src="https://img.shields.io/badge/License-MIT-yellow.svg" style="max-width: 100%;"></a><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/863c9a3d42b695ebec220d9843f6e35e8ad5fa06f2da4a5d0ed16fb2c3b70e8e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f696e76656e747265652f696e76656e74726565"><img src="https://camo.githubusercontent.com/863c9a3d42b695ebec220d9843f6e35e8ad5fa06f2da4a5d0ed16fb2c3b70e8e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f696e76656e747265652f696e76656e74726565" alt="GitHub 标签（最新 SemVer）" data-canonical-src="https://img.shields.io/github/v/tag/inventree/inventree" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/inventree/inventree/actions/workflows/qc_checks.yaml/badge.svg"><img src="https://github.com/inventree/inventree/actions/workflows/qc_checks.yaml/badge.svg" alt="CI" style="max-width: 100%;"></a>
+<a href="https://inventree.readthedocs.io/en/latest/?badge=latest" rel="nofollow"><img src="https://camo.githubusercontent.com/5f37d0f47af50f3cfd4da838912bc9acd062113e61339059840e457821030611/68747470733a2f2f72656164746865646f63732e6f72672f70726f6a656374732f696e76656e747265652f62616467652f3f76657273696f6e3d6c6174657374" alt="文件状态" data-canonical-src="https://readthedocs.org/projects/inventree/badge/?version=latest" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/inventree/inventree/actions/workflows/docker.yaml/badge.svg"><img src="https://github.com/inventree/inventree/actions/workflows/docker.yaml/badge.svg" alt="Docker 构建" style="max-width: 100%;"></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/7179" rel="nofollow"><img src="https://camo.githubusercontent.com/903e3628161cdf7d18976ddd111e2a36de9c456d64f89a14a41f3c963246ffed/68747470733a2f2f626573747072616374696365732e636f7265696e6672617374727563747572652e6f72672f70726f6a656374732f373137392f6261646765" alt="OpenSSF 最佳实践" data-canonical-src="https://bestpractices.coreinfrastructure.org/projects/7179/badge" style="max-width: 100%;"></a>
+<a href="https://app.netlify.com/sites/inventree/deploys" rel="nofollow"><img src="https://camo.githubusercontent.com/3f2f8c88970b3fac852ef237c4c1ff4163f55d0a73a4bd9d38feb4ef64f92f19/68747470733a2f2f6170692e6e65746c6966792e636f6d2f6170692f76312f6261646765732f39626262323130312d306134642d343165372d616435362d6236336662363035333039342f6465706c6f792d737461747573" alt="Netlify 状态" data-canonical-src="https://api.netlify.com/api/v1/badges/9bbb2101-0a4d-41e7-ad56-b63fb6053094/deploy-status" style="max-width: 100%;"></a>
+<a href="https://app.deepsource.com/gh/inventree/InvenTree/" rel="nofollow"><img src="https://camo.githubusercontent.com/d194135190cb1b6abc297c8f56bbc85fd1d01eb1daecdec97bae288e75eda049/68747470733a2f2f6170702e64656570736f757263652e636f6d2f67682f696e76656e747265652f496e76656e547265652e7376672f3f6c6162656c3d6163746976652b6973737565732673686f775f7472656e643d66616c736526746f6b656e3d74725a577169784b4c6b32742d52587470534941736c564a" alt="深源" data-canonical-src="https://app.deepsource.com/gh/inventree/InvenTree.svg/?label=active+issues&amp;show_trend=false&amp;token=trZWqixKLk2t-RXtpSIAslVJ" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://coveralls.io/github/inventree/InvenTree" rel="nofollow"><img src="https://camo.githubusercontent.com/d2bcae6dffcd97c8f6572f5e6106cad088d8d010c8d3d4c5a0bad6e2bdcd5e86/68747470733a2f2f696d672e736869656c64732e696f2f636f766572616c6c732f6769746875622f696e76656e747265652f496e76656e54726565" alt="连体服" data-canonical-src="https://img.shields.io/coveralls/github/inventree/InvenTree" style="max-width: 100%;"></a>
+<a href="https://crowdin.com/project/inventree" rel="nofollow"><img src="https://camo.githubusercontent.com/5dd42946b4d26c03eaa8a957d75a21a7e9453c448666be4f6679f78119b5d4aa/68747470733a2f2f6261646765732e63726f7764696e2e6e65742f696e76656e747265652f6c6f63616c697a65642e737667" alt="克罗丁" data-canonical-src="https://badges.crowdin.net/inventree/localized.svg" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/85c59627ae3711adbbbd0c23358eced5ca4861ecbb44cc4bdbb9086ec25e0e4c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f696e76656e747265652f696e76656e74726565"><img src="https://camo.githubusercontent.com/85c59627ae3711adbbbd0c23358eced5ca4861ecbb44cc4bdbb9086ec25e0e4c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d69742d61637469766974792f6d2f696e76656e747265652f696e76656e74726565" alt="GitHub 提交活动" data-canonical-src="https://img.shields.io/github/commit-activity/m/inventree/inventree" style="max-width: 100%;"></a>
+<a href="https://hub.docker.com/r/inventree/inventree" rel="nofollow"><img src="https://camo.githubusercontent.com/80aad9df2f7e6782255a4dd220bd525b94cba694b785e9a53057acb341afac81/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f696e76656e747265652f696e76656e74726565" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/inventree/inventree" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/49b5976e9d491dc730a33bdd823a556876a3b315b849d99476d1359b338b34b7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f696e76656e747265653f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/49b5976e9d491dc730a33bdd823a556876a3b315b849d99476d1359b338b34b7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f696e76656e747265653f7374796c653d736f6369616c" alt="GitHub Org 的星星" data-canonical-src="https://img.shields.io/github/stars/inventree?style=social" style="max-width: 100%;"></a>
+<a href="https://twitter.com/inventreedb" rel="nofollow"><img src="https://camo.githubusercontent.com/5501e4d23a4e94ebe2054a03da36e9c3c7d77a8f084598fb382a40b18df5b7c2/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f696e76656e7472656564623f7374796c653d736f6369616c" alt="推特关注" data-canonical-src="https://img.shields.io/twitter/follow/inventreedb?style=social" style="max-width: 100%;"></a>
+<a href="https://www.reddit.com/r/InvenTree/" rel="nofollow"><img src="https://camo.githubusercontent.com/b8162fcb6d6c51ab39d38685c4fc9ebb16b18494328cf82c779c7dc175d9e89c/68747470733a2f2f696d672e736869656c64732e696f2f7265646469742f7375627265646469742d73756273637269626572732f696e76656e747265653f7374796c653d736f6369616c" alt="Reddit 子版块订阅者" data-canonical-src="https://img.shields.io/reddit/subreddit-subscribers/inventree?style=social" style="max-width: 100%;"></a></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-----view-demo--------documentation--------report-bug--------request-feature--" class="anchor" aria-hidden="true" tabindex="-1" href="#----view-demo--------documentation--------report-bug--------request-feature--"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+    <a href="https://demo.inventree.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看演示</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">·</font></font></span>
+    <a href="https://docs.inventree.org/en/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">·</font></font></span>
+    <a href="https://github.com/inventree/InvenTree/issues/new?template=bug_report.md&amp;title=[BUG]"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告错误</font></font></a>
+  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">·</font></font></span>
+    <a href="https://github.com/inventree/InvenTree/issues/new?template=feature_request.md&amp;title=[FR]"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求功能</font></font></a>
   </h4>
 </div>
 
-<!-- About the Project -->
-## :star2: About the Project
+<h2 tabindex="-1" dir="auto"><a id="user-content-star2-about-the-project" class="anchor" aria-hidden="true" tabindex="-1" href="#star2-about-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌟 关于项目</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InvenTree 是一个开源库存管理系统，提供强大的低级库存控制和零件跟踪。</font><font style="vertical-align: inherit;">InvenTree系统的核心是Python/Django数据库后端，它提供管理界面（基于Web）和用于与外部接口和应用程序交互的REST API。</font><font style="vertical-align: inherit;">强大的插件系统为自定义应用程序和扩展提供支持。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请访问</font></font><a href="https://inventree.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多详情。</font></font></p>
 
-InvenTree is an open-source Inventory Management System which provides powerful low-level stock control and part tracking. The core of the InvenTree system is a Python/Django database backend which provides an admin interface (web-based) and a REST API for interaction with external interfaces and applications. A powerful plugin system provides support for custom applications and extensions.
+<h3 tabindex="-1" dir="auto"><a id="user-content-compass-roadmap" class="anchor" aria-hidden="true" tabindex="-1" href="#compass-roadmap"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧭 路线图</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想看看我们正在做什么吗？</font><font style="vertical-align: inherit;">查看</font></font><a href="https://github.com/inventree/InvenTree/issues?q=is%3Aopen+is%3Aissue+label%3Aroadmap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图标签</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/inventree/InvenTree/milestone/42"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">地平线里程碑</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
-Check out [our website](https://inventree.org) for more details.
+<h3 tabindex="-1" dir="auto"><a id="user-content-hammer_and_wrench-integration" class="anchor" aria-hidden="true" tabindex="-1" href="#hammer_and_wrench-integration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛠️整合</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InvenTree 被设计为可</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并提供了与外部应用程序</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或添加自定义插件的多种选项：</font></font></p>
+<ul dir="auto">
+<li><a href="https://docs.inventree.org/en/latest/api/api/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发明树 API</font></font></a></li>
+<li><a href="https://docs.inventree.org/en/latest/api/python/python/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python模块</font></font></a></li>
+<li><a href="https://docs.inventree.org/en/latest/extend/plugins" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件接口</font></font></a></li>
+<li><a href="https://docs.inventree.org/en/latest/extend/integrate" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三方工具</font></font></a></li>
+</ul>
 
-<!-- Roadmap -->
-### :compass: Roadmap
-
-Want to see what we are working on? Check out the [roadmap tag](https://github.com/inventree/InvenTree/issues?q=is%3Aopen+is%3Aissue+label%3Aroadmap) and [horizon milestone](https://github.com/inventree/InvenTree/milestone/42).
-
-<!-- Integration -->
-### :hammer_and_wrench: Integration
-
-InvenTree is designed to be **extensible**, and provides multiple options for **integration** with external applications or addition of custom plugins:
-
-* [InvenTree API](https://docs.inventree.org/en/latest/api/api/)
-* [Python module](https://docs.inventree.org/en/latest/api/python/python/)
-* [Plugin interface](https://docs.inventree.org/en/latest/extend/plugins)
-* [Third party tools](https://docs.inventree.org/en/latest/extend/integrate)
-
-<!-- TechStack -->
-### :space_invader: Tech Stack
-
+<h3 tabindex="-1" dir="auto"><a id="user-content-space_invader-tech-stack" class="anchor" aria-hidden="true" tabindex="-1" href="#space_invader-tech-stack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👾 技术堆栈</font></font></h3>
 <details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.python.org/">Python</a></li>
-    <li><a href="https://www.djangoproject.com/">Django</a></li>
-    <li><a href="https://www.django-rest-framework.org/">DRF</a></li>
-    <li><a href="https://django-q.readthedocs.io/">Django Q</a></li>
-    <li><a href="https://django-allauth.readthedocs.io/">Django-Allauth</a></li>
+  <summary><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器</font></font></summary>
+  <ul dir="auto">
+    <li><a href="https://www.python.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python</font></font></a></li>
+    <li><a href="https://www.djangoproject.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">姜戈</font></font></a></li>
+    <li><a href="https://www.django-rest-framework.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分布式RF</font></font></a></li>
+    <li><a href="https://django-q.readthedocs.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">姜戈Q</font></font></a></li>
+    <li><a href="https://django-allauth.readthedocs.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">姜戈·阿劳斯</font></font></a></li>
+  </ul>
+</details>
+<details>
+<summary><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据库</font></font></summary>
+  <ul dir="auto">
+    <li><a href="https://www.postgresql.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL</font></font></a></li>
+    <li><a href="https://www.mysql.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MySQL</font></font></a></li>
+    <li><a href="https://www.sqlite.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SQLite</font></font></a></li>
+    <li><a href="https://redis.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">雷迪斯</font></font></a></li>
+  </ul>
+</details>
+<details>
+  <summary><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户</font></font></summary>
+  <ul dir="auto">
+    <li><a href="https://getbootstrap.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引导程序</font></font></a></li>
+    <li><a href="https://jquery.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jQuery</font></font></a></li>
+    <li><a href="https://bootstrap-table.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引导表</font></font></a></li>
+  </ul>
+</details>
+<details>
+<summary><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发运营</font></font></summary>
+  <ul dir="auto">
+    <li><a href="https://hub.docker.com/r/inventree/inventree" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">码头工人</font></font></a></li>
+    <li><a href="https://crowdin.com/project/inventree" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克罗丁</font></font></a></li>
+    <li><a href="https://coveralls.io/github/inventree/InvenTree" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连体服</font></font></a></li>
+    <li><a href="https://app.deepsource.com/gh/inventree/InvenTree" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深源</font></font></a></li>
+    <li><a href="https://packager.io/gh/inventree/InvenTree" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打包器io</font></font></a></li>
   </ul>
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.sqlite.org/">SQLite</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-  </ul>
-</details>
+<h2 tabindex="-1" dir="auto"><a id="user-content-toolbox-deployment--getting-started" class="anchor" aria-hidden="true" tabindex="-1" href="#toolbox-deployment--getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧰 部署/入门</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有多种部署 InvenTree 的选项。</font></font></p>
+<div align="center" dir="auto"><h4 tabindex="-1" dir="auto"><a id="user-content-----docker--------------------bare-metal" class="anchor" aria-hidden="true" tabindex="-1" href="#----docker--------------------bare-metal"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+    <a href="https://docs.inventree.org/en/latest/start/docker/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker </font></font></a>
+    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">· </font></font></span>
+    <font style="vertical-align: inherit;"><span><font style="vertical-align: inherit;">·</font></span><a href="https://docs.inventree.org/en/latest/start/install/" rel="nofollow"><font style="vertical-align: inherit;">裸机</font></a></font><a href="https://inventree.org/digitalocean" rel="nofollow"><img src="https://camo.githubusercontent.com/86fb02203fa6a3b7d2f1128e84a2e10df621804aa6cad81fa73d3a4f85978924/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652d67686f73742e737667" alt="部署到 DO" width="auto" height="40" data-canonical-src="https://www.deploytodo.com/do-btn-blue-ghost.svg" style="max-width: 100%;"></a>
+    <span><font style="vertical-align: inherit;"></font></span>
+    <a href="https://docs.inventree.org/en/latest/start/install/" rel="nofollow"><font style="vertical-align: inherit;"></font></a>
+</h4></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单行安装 - 阅读支持的发行版的</font></font><a href="https://docs.inventree.org/en/latest/start/installer/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及有关该功能的详细信息：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>wget -qO install.sh https://get.inventree.org <span class="pl-k">&amp;&amp;</span> bash install.sh</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="wget -qO install.sh https://get.inventree.org &amp;&amp; bash install.sh" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://docs.inventree.org/en/latest/start/install/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取完整的安装和设置说明。</font></font></p>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-    <li><a href="https://jquery.com/">jQuery</a></li>
-    <li><a href="https://bootstrap-table.com/">Bootstrap-Table</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>DevOps</summary>
-  <ul>
-    <li><a href="https://hub.docker.com/r/inventree/inventree">Docker</a></li>
-    <li><a href="https://crowdin.com/project/inventree">Crowdin</a></li>
-    <li><a href="https://coveralls.io/github/inventree/InvenTree">Coveralls</a></li>
-    <li><a href="https://app.deepsource.com/gh/inventree/InvenTree">DeepSource</a></li>
-    <li><a href="https://packager.io/gh/inventree/InvenTree">Packager.io</a></li>
-  </ul>
-</details>
-
-<!-- Getting Started -->
-## 	:toolbox: Deployment / Getting Started
-
-There are several options to deploy InvenTree.
-
-<div align="center"><h4>
-    <a href="https://docs.inventree.org/en/latest/start/docker/">Docker</a>
-    <span> · </span>
-    <a href="https://inventree.org/digitalocean"><img src="https://www.deploytodo.com/do-btn-blue-ghost.svg" alt="Deploy to DO" width="auto" height="40" /></a>
-    <span> · </span>
-    <a href="https://docs.inventree.org/en/latest/start/install/">Bare Metal</a>
+<h2 tabindex="-1" dir="auto"><a id="user-content-iphone-mobile-app" class="anchor" aria-hidden="true" tabindex="-1" href="#iphone-mobile-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📱 移动应用程序</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://docs.inventree.org/en/latest/app/app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InvenTree 由配套移动应用程序</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font><font style="vertical-align: inherit;">，该应用程序允许用户访问库存控制信息和功能。</font></font></p>
+<div align="center" dir="auto"><h4 tabindex="-1" dir="auto"><a id="user-content-----android-play-store-----------apple-app-store" class="anchor" aria-hidden="true" tabindex="-1" href="#----android-play-store-----------apple-app-store"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+    <a href="https://play.google.com/store/apps/details?id=inventree.inventree_app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安卓 Play 商店</font></font></a>
+     <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">·</font></font></span>
+    <a href="https://apps.apple.com/au/app/inventree/id1581731101#?platform=iphone" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">苹果应用商店</font></font></a>
 </h4></div>
 
-Single line install - read [the docs](https://docs.inventree.org/en/latest/start/installer/) for supported distros and details about the function:
-```bash
-wget -qO install.sh https://get.inventree.org && bash install.sh
-```
+<h2 tabindex="-1" dir="auto"><a id="user-content-wave-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#wave-contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👋 贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎并鼓励做出贡献。</font><font style="vertical-align: inherit;">请帮助使这个项目变得更好！</font><font style="vertical-align: inherit;">请参阅</font></font><a href="/inventree/InvenTree/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
-Refer to the [getting started guide](https://docs.inventree.org/en/latest/start/install/) for a full set of installation and setup instructions.
+<h2 tabindex="-1" dir="auto"><a id="user-content-scroll-translation" class="anchor" aria-hidden="true" tabindex="-1" href="#scroll-translation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📜 翻译</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InvenTree Web 应用程序的母语翻译是</font></font><a href="https://crowdin.com/project/inventree" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区通过 crowdin 贡献的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎并鼓励做出贡献</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
-<!-- Mobile App -->
-## 	:iphone: Mobile App
+<h2 tabindex="-1" dir="auto"><a id="user-content-money_with_wings-sponsor" class="anchor" aria-hidden="true" tabindex="-1" href="#money_with_wings-sponsor"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💸 赞助商</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用 InvenTree 并发现它有用，请考虑</font></font><a href="https://github.com/sponsors/inventree"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞助该项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
 
-InvenTree is supported by a [companion mobile app](https://docs.inventree.org/en/latest/app/app/) which allows users access to stock control information and functionality.
-
-<div align="center"><h4>
-    <a href="https://play.google.com/store/apps/details?id=inventree.inventree_app">Android Play Store</a>
-     <span> · </span>
-    <a href="https://apps.apple.com/au/app/inventree/id1581731101#?platform=iphone">Apple App Store</a>
-</h4></div>
-
-<!-- Contributing -->
-## :wave: Contributing
-
-Contributions are welcomed and encouraged. Please help to make this project even better! Refer to the [contribution page](CONTRIBUTING.md).
-
-<!-- Translation -->
-## :scroll: Translation
-
-Native language translation of the InvenTree web application is [community contributed via crowdin](https://crowdin.com/project/inventree). **Contributions are welcomed and encouraged**.
-
-<!-- Sponsor -->
-## :money_with_wings: Sponsor
-
-If you use InvenTree and find it to be useful, please consider [sponsoring the project](https://github.com/sponsors/inventree).
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-We would like to acknowledge a few special projects:
- - [PartKeepr](https://github.com/partkeepr/PartKeepr) as a valuable predecessor and inspiration
- - [Readme Template](https://github.com/Louis3797/awesome-readme-template) for the template of this page
-
-Find a full list of used third-party libraries in [our documentation](https://docs.inventree.org/en/latest/credits/).
-
-## :heart: Support
-
-<p>This project is supported by the following sponsors:</p>
-
-<p align="center">
-<!-- sponsors --><a href="https://github.com/MartinLoeper"><img src="https://github.com/MartinLoeper.png" width="60px" alt="Martin Löper" /></a><a href="https://github.com/lippoliv"><img src="https://github.com/lippoliv.png" width="60px" alt="Oliver Lippert" /></a><a href="https://github.com/lfg-seth"><img src="https://github.com/lfg-seth.png" width="60px" alt="Seth Smith" /></a><a href="https://github.com/snorkrat"><img src="https://github.com/snorkrat.png" width="60px" alt="" /></a><!-- sponsors -->
+<h2 tabindex="-1" dir="auto"><a id="user-content-gem-acknowledgements" class="anchor" aria-hidden="true" tabindex="-1" href="#gem-acknowledgements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💎致谢</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们要感谢一些特殊项目：</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/partkeepr/PartKeepr"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PartKeepr</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是宝贵的前辈和灵感</font></font></li>
+<li><a href="https://github.com/Louis3797/awesome-readme-template"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此页面模板的</font><a href="https://github.com/Louis3797/awesome-readme-template"><font style="vertical-align: inherit;">自述模板</font></a></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://docs.inventree.org/en/latest/credits/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我们的文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中查找已使用的第三方库的完整列表</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-heart-support" class="anchor" aria-hidden="true" tabindex="-1" href="#heart-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❤️支持</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目得到以下赞助商的支持：</font></font></p>
+<p align="center" dir="auto">
+<a href="https://github.com/MartinLoeper"><img src="https://github.com/MartinLoeper.png" width="60px" alt="马丁·洛珀" style="max-width: 100%;"></a>
+<a href="https://github.com/lippoliv"><img src="https://github.com/lippoliv.png" width="60px" alt="奥利弗·利珀特" style="max-width: 100%;"></a>
+<a href="https://github.com/lfg-seth"><img src="https://github.com/lfg-seth.png" width="60px" alt="赛斯·史密斯" style="max-width: 100%;"></a>
+<a href="https://github.com/snorkrat"><img src="https://github.com/snorkrat.png" width="60px" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/spacequest-ltd"><img src="https://github.com/spacequest-ltd.png" width="60px" alt="太空探索有限公司" style="max-width: 100%;"></a>
+<a href="https://github.com/appwrite"><img src="https://github.com/appwrite.png" width="60px" alt="应用程序写入" style="max-width: 100%;"></a>
+<a href="https://github.com/PricelessToolkit"><img src="https://github.com/PricelessToolkit.png" width="60px" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/cabottech"><img src="https://github.com/cabottech.png" width="60px" alt="卡博特技术公司" style="max-width: 100%;"></a>
+<a href="https://github.com/markus-k"><img src="https://github.com/markus-k.png" width="60px" alt="马库斯·卡斯滕" style="max-width: 100%;"></a>
 </p>
-
-<p>With ongoing resources provided by:</p>
-
-<p align="center">
-  <a href="https://inventree.org/digitalocean">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">持续提供资源：</font></font></p>
+<p align="center" dir="auto">
+  <a href="https://inventree.org/digitalocean" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/434c125d7282a0d9fcf8acf0ddd944392e55f0dea60955caa11ddade067b8e56/68747470733a2f2f6f70656e736f757263652e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f6174747269627574696f6e2f6173736574732f5356472f444f5f4c6f676f5f686f72697a6f6e74616c5f626c75652e737667" width="201px" alt="Digital Ocean 的服务器" data-canonical-src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" style="max-width: 100%;">
   </a>
-  <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-bg.svg" alt="Deploys by Netlify" /> </a>
-  <a href="https://crowdin.com"> <img src="https://crowdin.com/images/crowdin-logo.svg" alt="Crowdin" /> </a>
+  <a href="https://www.netlify.com" rel="nofollow"> <img src="https://camo.githubusercontent.com/5af22899ce63a98e3ac7293f2d820bbe1d5bd1ff7aae34f6c4679b1ce6b42abd/68747470733a2f2f7777772e6e65746c6966792e636f6d2f76332f696d672f636f6d706f6e656e74732f6e65746c6966792d636f6c6f722d62672e737667" alt="由 Netlify 部署" data-canonical-src="https://www.netlify.com/v3/img/components/netlify-color-bg.svg" style="max-width: 100%;"> </a>
+  <a href="https://crowdin.com" rel="nofollow"> <img src="https://camo.githubusercontent.com/f9e8d2bee912f6f1a788b55c5812c984c94ff366bedf0c3e9c95b931a065379e/68747470733a2f2f63726f7764696e2e636f6d2f696d616765732f63726f7764696e2d6c6f676f2e737667" alt="克劳丁翻译" data-canonical-src="https://crowdin.com/images/crowdin-logo.svg" style="max-width: 100%;"> </a>
 </p>
 
-
-<!-- License -->
-## :warning: License
-
-Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See [LICENSE.txt](https://github.com/inventree/InvenTree/blob/master/LICENSE) for more information.
+<h2 tabindex="-1" dir="auto"><a id="user-content-warning-license" class="anchor" aria-hidden="true" tabindex="-1" href="#warning-license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据</font></font><a href="https://choosealicense.com/licenses/mit/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MIT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证分发。</font><font style="vertical-align: inherit;">有关详细信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/inventree/InvenTree/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LICENSE.txt 。</font></font></a><font style="vertical-align: inherit;"></font></p>
+</article></div>
